@@ -18,9 +18,9 @@ html {
 }
 
 body {
-	background: $white;
+	background-image: url("https://i.pinimg.com/originals/1f/5c/8f/1f5c8f5815ae39bbb961541b38bb8b15.jpg");
   font: 18px/1.4 $helvetica;
-  color: $darkGray;
+  color: #660066;
 }
 
 .container {
@@ -242,25 +242,56 @@ nav {
 //
 
 .posts > .post {
-  padding-bottom: 2em;
-  border-bottom: 1px solid $lightGray;
+  padding: 2px;
+  border: #ff0000;
+  border-radius: 20px;
+  background-color: #ff0000;
+  background: rgba(0,0,255,0.4) /* background with 40% opacity */;	
 }
 
 .posts > .post:last-child {
-  padding-bottom: 1em;
-  border-bottom: none;
+  padding: 2px;
+  border: #ff0000;
+  border-radius: 20px;
+  background-color: #ff0000;
+  background: rgba(0,0,255,0.4) /* background with 40% opacity */;	
 }
 
-.post {
+.post, table, th, td {
   blockquote {
     margin: 1.8em .8em;
     border-left: 2px solid $gray;
     padding: 0.1em 1em;
-    color: $gray;
+    color: #ffbb00;
     font-size: 22px;
     font-style: italic;
+    border-bottom: 5px #ff0000;
+    border-top: 5px #ff0000;
+    border-left: 5px #ff0000;
+    border-right: 5px #ff0000; 
+    border: 2px solid red;
+    border-radius: 25px;
   }
 
+table, th, td {
+   border: 5px solid red;
+   padding: 25px;
+   border: #ff0000;
+   border-top-left-radius: 25px;
+   border-top-right-radius: 25px;	
+   border-bottom-right-radius: 25px;
+   border-bottom-left-radius: 25px;
+   background-color: rgba(0,0,255,0.6) /* Background with 60% opacity */;
+}
+
+th {
+   text-align: left;
+}
+	
+td {
+    height: 50px;
+    vertical-align: bottom;
+}
   .comments {
     margin-top: 10px;
   }
