@@ -241,22 +241,6 @@ nav {
 // .main
 //
 
-.posts > .post {
-  padding: 2px;
-  border: #ff0000;
-  border-radius: 20px;
-  background-color: #ff0000;
-  background: rgba(0,0,255,0.4) /* background with 40% opacity */;	
-}
-
-.posts > .post:last-child {
-  padding: 2px;
-  border: #ff0000;
-  border-radius: 20px;
-  background-color: #ff0000;
-  background: rgba(0,0,255,0.4) /* background with 40% opacity */;	
-}
-
 .post, table, th, td {
   blockquote {
     margin: 1.8em .8em;
