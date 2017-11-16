@@ -1,10 +1,14 @@
 ---
-layout: post
-title: You're up and running!
----
+<table>
+  <tr>
+    <td>Title: </td>
+    <td> How to make a chocolate cake </td>
+  </tr>
 
-Next you can update your site name, avatar and other options using the _config.yml file in the root of your repository (shown below).
-
-![_config.yml]({{ site.baseurl }}/images/config.png)
-
-The easiest way to make your first post is to edit this one. Go into /_posts/ and update the Hello World markdown file. For more instructions head over to the [Jekyll Now repository](https://github.com/barryclark/jekyll-now) on GitHub.
+<table>
+  </tr>
+  <tr>
+    <td> Hi everybody, my name is Omisha Gandhi and in this blog, I will be talking to you about how to make a simple chocolate cake. This recipe is the first ever recipe I learnt and now I am very good at making the chocolate cake. Also, I will be talking to you about how to make the simple yet dlicious butter cream to decorate and finish of your cake. <table>
+ </td>
+  </tr>
+</table>
