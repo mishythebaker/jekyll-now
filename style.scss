@@ -74,6 +74,7 @@ a {
 	cursor: pointer;
   &:hover, &:active {
     color: #660066;
+  backgound-colour: rgba(0,0,255,0.4) /* background with 40% opacity */;
   }
 }
 
@@ -123,7 +124,7 @@ img {
 // Specify the color of the selection
 ::-moz-selection {
   color: #ff6680;
-  background: $lightGray;
+  background-colour: rgba(0,0,255,0.4) /* background with 40% opacity */;
 }
 ::selection {
   color: #660066;
