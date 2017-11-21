@@ -61,7 +61,7 @@ h3 {
 
 h4 {
   font-size: 18px;
-  color: #660066;
+  color: #ff6680;
 }
 
 p {
@@ -69,11 +69,11 @@ p {
 }
 
 a {
-  color: #00ffff;
+  color: #ff6680;
   text-decoration: none;
 	cursor: pointer;
   &:hover, &:active {
-    color: #660066;
+    color: #ff6680;
   backgound-colour: rgba(0,0,255,0.4) /* background with 40% opacity */;
   }
 }
@@ -127,7 +127,7 @@ img {
   background-colour: rgba(0,0,255,0.4) /* background with 40% opacity */;
 }
 ::selection {
-  color: #660066;
+  color: #ff6680;
   background: #ff6680;
 }
 
