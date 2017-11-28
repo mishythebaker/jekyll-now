@@ -162,11 +162,11 @@ td {
 
 // Specify the color of the selection
 ::-moz-selection {
-  color: #ff6680;
+  color: #ff0000;
   background: $lightGray;
 }
 ::selection {
-  color: #ff6680;
+  color: #ff0000;
   background: #ff6680;
 }
 
@@ -236,14 +236,14 @@ td {
   cursor: pointer;
   font-family: $helveticaNeue;
   font-weight: 300;
-  font-size: 28px;
+  font-size: 30px;
   letter-spacing: 1px;
 }
 
 .site-description {
   margin: -5px 0 0 0;
   color: #ff0000;
-  font-size: 16px;
+  font-size: 20px;
 
   @include mobile {
     margin: 3px 0;
@@ -265,7 +265,7 @@ nav {
 
   a {
     margin-left: 20px;
-    color: #ff6680;
+    color: #ff0000;
     text-align: right;
     font-weight: 300;
     letter-spacing: 1px;
